@@ -1,14 +1,23 @@
 # Xrandr-ncurses
-Gérer de manière rapide les écrans avec i3
+Manage easily your screens with i3
 
-## Dépendances
+<img src="img/screen.png" alt="drawing" width="600"/>
+
+## dependency
 * ncurses
 
-## Utilisation
-permet de gérer les affichage vidéo:
-* Position de l'affichage
-* Reload la polybar (il faut changer le chemin)
+## What does it do ?
+* Choose the screens that you want to use
+* Reload polybar
 * Reload nitrogen
 
 ## Installation
-Il suffit de copier le `hdmi.sh` dans `~/.local/bin/`
+* (opt) build it
+* Just copy (or `ln`) `hdmi.sh` in `~/.local/bin`
+* Add in your I3 config `bindsym $mod+j exec --no-startup-id hdmi`
+
+## Customise
+You can add for each state the bash command that you want to Add
+
+
+Enjoy !
